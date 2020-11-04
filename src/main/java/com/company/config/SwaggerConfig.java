@@ -11,7 +11,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
-public class FoxConfig {
+public class SwaggerConfig {
 	// http://localhost:8080/swagger-ui.html#/
 	@Bean
 	public Docket api() {
